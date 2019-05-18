@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Monster Factory">
+      <UniqueIdentifier>{d6b74bdd-e8db-4cfe-a1ac-60e50874d36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{d12730c6-9c29-4d81-9fab-449fff8cd833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monsters">
+      <UniqueIdentifier>{f4dc1e0b-869a-4459-95d2-2e83d2b3984d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster Builder">
+      <UniqueIdentifier>{18bf001d-ebb4-4892-bb97-8f3f9cb0f4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Things Monsters Have">
+      <UniqueIdentifier>{f269491c-44d3-44b3-aee1-8e6f9a10d51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World %28Mediator%29">
+      <UniqueIdentifier>{b33761aa-0d94-4e7a-90af-d16214cfc6fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TheMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cWorld.cpp">
+      <Filter>Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterFactory_Imp.cpp">
+      <Filter>Monster Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterFactory.cpp">
+      <Filter>Monster Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="cJetPack.cpp">
+      <Filter>Things Monsters Have</Filter>
+    </ClCompile>
+    <ClCompile Include="cInvisibleOgre.cpp">
+      <Filter>Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonster.cpp">
+      <Filter>Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="cNecroticMonster.cpp">
+      <Filter>Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="cKnife.cpp">
+      <Filter>Things Monsters Have</Filter>
+    </ClCompile>
+    <ClCompile Include="cPistol.cpp">
+      <Filter>Things Monsters Have</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterBuilder.cpp">
+      <Filter>Monster Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="cNecroticMonster_FlyWithJetPack.cpp">
+      <Filter>Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="cSkateboard.cpp">
+      <Filter>Things Monsters Have</Filter>
+    </ClCompile>
+    <ClCompile Include="cMediator.cpp">
+      <Filter>World %28Mediator%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cWorld.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterFactory_Imp.h">
+      <Filter>Monster Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterFactory.h">
+      <Filter>Monster Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="cKnife.h">
+      <Filter>Things Monsters Have</Filter>
+    </ClInclude>
+    <ClInclude Include="cPistol.h">
+      <Filter>Things Monsters Have</Filter>
+    </ClInclude>
+    <ClInclude Include="cJetPack.h">
+      <Filter>Things Monsters Have</Filter>
+    </ClInclude>
+    <ClInclude Include="cInvisibleOgre.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonster.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="cNecroticMonster.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterBuilder.h">
+      <Filter>Monster Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="iInvisibleOgre_BuilderInterface.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="iNecroticMonster_BuilderInterface.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="iMonster_BuilderInterface.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="cSkateboard.h">
+      <Filter>Things Monsters Have</Filter>
+    </ClInclude>
+    <ClInclude Include="iMonster.h">
+      <Filter>Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="cMediator.h">
+      <Filter>World %28Mediator%29</Filter>
+    </ClInclude>
+    <ClInclude Include="iMediator_MonsterInterface.h">
+      <Filter>World %28Mediator%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
